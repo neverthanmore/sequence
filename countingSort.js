@@ -4,7 +4,6 @@ function countingSort(arr) {
   const C = [], D = [];
   const min = Math.min(...arr);
   const max = Math.max(...arr);
-  console.log(min, max);
   const len = arr.length;
 
   for(let i = 0; i < len; i++) {
